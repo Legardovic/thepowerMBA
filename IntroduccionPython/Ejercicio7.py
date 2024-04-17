@@ -49,7 +49,7 @@ while (cont):
         case _ :
             print("Opción incorrecta")
     while(cont1):
-        inputOtra = input("Quiere realizar otra operación (S/N): ") 
+        inputOtra = input("¿Quiere realizar otra operación (S/N)?: ") 
         if inputOtra in "Nn":
             cont = False
             cont1 = False
